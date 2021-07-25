@@ -1,0 +1,37 @@
+.gridCuenta{
+ @media screen and (min-width:601px){
+ display: grid;
+ grid-template-areas:
+ "encabezado encabezado"
+ "cuenta sesion"
+ "pie pie";}
+
+ .barra{
+  grid-area:encabezado;
+ }
+ .columnaCuenta{
+  grid-area:cuenta;
+  .formOculto{
+   display: flex;
+  }
+  fieldset{
+   form{
+    ul{
+     div{
+      li{
+       select{
+       
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ .iniciarSesion{
+  grid-area: sesion;
+ }
+ .pieDePagina{
+  grid-area: pie;
+ }
+}

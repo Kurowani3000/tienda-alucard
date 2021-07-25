@@ -1,0 +1,30 @@
+body{
+  section{
+    .submenu{
+     display: flex;
+     flex-direction: row;
+     @media (max-width:992px){
+       flex-direction: column;
+      }
+      li{
+       width: 250px;
+       margin: 10px;
+       @media (max-width:992px){
+       width: 100%;
+        }
+      }
+    }
+  }
+  
+  .pieDePagina{
+    background-color: $colorPincipal;
+    .pieDePagina__estilo {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+      li{
+       color: white;
+      }
+    }
+  }
+}
