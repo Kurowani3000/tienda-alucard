@@ -377,43 +377,38 @@ div .seccionPoster, div .seccionCromo {
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco:hover, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco:hover, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco:hover, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco:hover {
         border-color: rgba(255, 90, 90, 0.877);
         border-width: 8px; }
-      div .seccionPoster .seccionPoster__gallery .seccionPoster--marco div img, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco div img, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco div img, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco div img {
-        transition: all; }
-        div .seccionPoster .seccionPoster__gallery .seccionPoster--marco div img:hover, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco div img:hover, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco div img:hover, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco div img:hover {
-          transform: translate(-10000px); }
+      div .seccionPoster .seccionPoster__gallery .seccionPoster--marco div, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco div, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco div, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco div {
+        width: 189px;
+        height: 566px; }
+        div .seccionPoster .seccionPoster__gallery .seccionPoster--marco div div, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco div div, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco div div, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco div div {
+          width: 189px;
+          height: 566px;
+          background-color: rgba(93, 116, 143, 0.5);
+          transition: 1s; }
+          div .seccionPoster .seccionPoster__gallery .seccionPoster--marco div div:hover, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco div div:hover, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco div div:hover, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco div div:hover {
+            background-color: rgba(93, 116, 143, 0); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p001, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p001, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p001, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p001 {
-        background-image: url("../imagenes/p001.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p001.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p002, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p002, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p002, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p002 {
-        background-image: url("../imagenes/p002.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p002.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p003, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p003, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p003, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p003 {
-        background-image: url("../imagenes/p003.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p003.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p004, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p004, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p004, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p004 {
-        background-image: url("../imagenes/p004.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p004.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p005, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p005, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p005, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p005 {
-        background-image: url("../imagenes/p005.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p005.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p006, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p006, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p006, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p006 {
-        background-image: url("../imagenes/p006.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p006.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p007, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p007, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p007, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p007 {
-        background-image: url("../imagenes/p007.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p007.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p008, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p008, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p008, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p008 {
-        background-image: url("../imagenes/p008.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p008.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p009, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p009, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p009, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p009 {
-        background-image: url("../imagenes/p009.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p009.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p010, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p010, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p010, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p010 {
-        background-image: url("../imagenes/p010.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p010.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .p011, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .p011, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .p011, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .p011 {
-        background-image: url("../imagenes/p011.jpg");
-        width: 189px; }
+        background-image: url("../imagenes/p011.jpg"); }
       div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .seccionPoster--precio, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .seccionPoster--precio, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .seccionPoster--precio, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .seccionPoster--precio, div .seccionPoster .seccionPoster__gallery .seccionPoster--marco .seccionCromo .seccionCromo__gallery .seccionCromo--precio, div .seccionCromo .seccionPoster__gallery .seccionPoster--marco .seccionCromo__gallery .seccionCromo--precio, div .seccionCromo .seccionCromo__gallery .seccionPoster--marco .seccionCromo--precio, div .seccionCromo .seccionCromo__gallery .seccionCromo--marco .seccionCromo--precio {
         margin-top: 8px;
         width: 100%;

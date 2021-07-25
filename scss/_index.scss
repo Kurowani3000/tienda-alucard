@@ -42,19 +42,23 @@ div{
      border-width: 8px;
     }
       div{
-       img{
-       transition: all;
-      
-       &:hover{
-        transform:translate(-10000px);
-       }
+        width: 189px;
+        height: 566px;
+        div{
+          width: 189px;
+        height: 566px;
+         background-color: rgba($color: $colorSecundario, $alpha: 0.5);
+         transition: 1s;
+         &:hover{
+           background-color: rgba($color: $colorSecundario, $alpha: 0.0);
+         }
+        }
       }
-     }
-     @each $cortina in p001, p002,p003 ,p004 ,p005,p006,p007,p008,p009,p010, p011{
+      @each $cortina in p001, p002,p003 ,p004 ,p005,p006,p007,p008,p009,p010, p011{
      .#{$cortina}{
       background-image:url('../imagenes/#{$cortina}.jpg');
-      width: 189px;
      }
+     
     }
     .seccionPoster--precio{
      margin-top: 8px;
