@@ -10,19 +10,32 @@ div{
    background-color: $colorPincipal;
    display: flex;
    align-items: center;
+   
+   
    ul{
+    position:relative;
+    top: 70px;
     @media screen and (max-width:995px){
     background-color:$colorPincipal;
     border-radius:10px;
+    position:relative;
+    top: 14px;
     } 
     li{
-     display: flex;
-     justify-content: center;
      transition: 1s;
     animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
      @media screen and (max-width:995px){
       &:hover{
        background-color:$colorSecundario;
+      }
+      ul{
+        @media screen and (max-width:995px){
+        width: 80%;
+        padding: 0px;
+        }
+        li{
+          
+        }
       }
      }
     }
