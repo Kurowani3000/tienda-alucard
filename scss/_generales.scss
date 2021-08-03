@@ -32,7 +32,7 @@ ul, ol{
  color: $color;
 }
 
-li, p, a, input {
+li, p, a, input,{
  @include texto($letraEstilo, 16px,   normal, 400, $colorTexto);
  @media (min-width:992px){
    @include texto($letraEstilo, 22px, normal, 500, $colorTexto);
